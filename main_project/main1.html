@@ -1,0 +1,113 @@
+<?php
+
+if(array_key_exists("login",$_GET))
+	$loginmsg="Invalid UserID/Pwd";
+else
+	$loginmsg="";
+?>
+<html>
+<head>
+<title>smartcityworkercrew.com</title>
+<link type="text/css" rel="stylesheet" href="st.css">
+
+</head>
+<body>
+<div id="loginbar">
+<form action=login.php method=post >
+<table cellspacing="5px" cellpadding="1px"id="align">
+<tr>
+<td id="col">
+LoginId:</td>
+<td id="col">Password:</td>
+</tr>
+<tr>
+<td><input type=email name=userid size=20 required ></td>
+<td><input type=password name=pwd size=20  required ></td>
+<td><input id="btn" type="submit" value="Login">
+</tr>
+</table>
+</form>
+
+<?php echo $loginmsg; ?>
+
+
+</div>
+<div id="mar">
+<img src="iot1.png"> 
+</div>
+
+
+<div id="tbmargin">
+<center>
+<form action=register.php method=post name=frm enctype="multipart/form-data">
+<table align="center" id="rcorners3" cellspacing="20px">
+	<tr>
+		<td colspan="2">
+			<h1>
+				Create an account
+			</h1>
+		</td>
+	</tr>
+	<tr>
+		<td>
+		<input type="text" name="name" value="" placeholder="First Name" id="email" required >
+		</td>
+	</tr>
+	<tr>
+		<td colspan="2">
+			<input type="text" name="address" placeholder="address" id="email" required>	
+		</td>
+	</tr>
+	<tr>
+		<td colspan="2"> 
+		<input type="email" name="emailid" size="40" placeholder="something@gmail.com" required id="email">
+		</td>
+	</tr>
+		<tr>
+		<td colspan="2"> 
+		<input type="text" name="contactno" size="40" placeholder="Contact Number" required id="email">
+		</td>
+	</tr>
+	<tr>
+		<td colspan="2">
+			<input type="password" name="pwd" placeholder="Password" id="email" required class="password">	
+		</td>
+	</tr>
+						
+    <tr>
+    	<td colspan="2" align="left" >
+    	Birthday : <input type="date" id="email1" name="bdate" >
+</td>
+</tr>
+<tr><td>Photo  <input type=file name=photo accept="image/*" size=80  required ></td></tr>
+<tr>
+	<td colspan="2">
+		<input type="radio" name="gender" value="female" required> <strong>Female</strong>
+		<input type="radio" name="gender" value="male" required> <strong>Male</strong> 
+	</td>
+</tr>
+<tr>
+	<td colspan="2" align="center">
+		<input type="submit" value="Submit"  id="sbutton2"><br>
+	</td>
+</tr>	
+</TABLE>
+</form>
+
+
+</center>
+</body>
+</html>
+
+<script>
+function checkpwd()
+{
+	if(document.frm.pwd.value!=document.frm.confirm.value)
+	{
+		alert('Password not Matching with Confirm Value');
+		document.frm.pwd.value="";
+		document.frm.confirm.value="";
+	}
+}
+</script>
+

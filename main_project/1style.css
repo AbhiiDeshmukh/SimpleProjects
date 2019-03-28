@@ -1,0 +1,177 @@
+body{
+	background:#E5E4E2;
+	margin:0;
+	font-size:20px;
+}
+
+#bar{
+	margin-top:7px;
+	background:#C2DFFF;
+	height:70px;
+	border-radius:15px;
+	margin-left:5px;
+	margin-right:5px;
+	
+}
+
+#right{
+	float:right;
+}
+
+
+#cyf{
+	font-family:Gabriola;
+	font-size:190%;
+	color:#306754;
+	
+}
+#tb1
+{
+	font-family:Gabriola;
+	font-size:130%;
+	color:#306754;
+	text-decoration:underline;
+}
+#modules
+{
+	width:550px;
+	height:50px;
+	font-size:40px;
+	text-align:center;
+	font-style:bold;
+	font-weight:bolder;
+	box-shadow:0px 6px #FDD017;
+	background:-moz-linear-gradient(#306754,Black);
+	color:#C2DFFF;
+}
+
+
+.sidenav {
+	
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0;
+    left: 0;
+    background-color:#C2DFFF; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+/* The navigation menu links */
+.sidenav a {
+	
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #777;
+    display: block;
+    transition: 0.3s
+}
+
+
+.sidenav a:hover, .offcanvas a:focus{
+    color: #f1f1f1;
+}
+
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+
+
+
+
+#mar{
+	margin-top:-30px;
+	margin-bottom:-30px;
+}
+
+#end{
+	
+	font-family:cambria;
+	color:#C2DFFF;
+	font-size:90%;
+	padding-left:120px;
+}
+
+#endbar{
+	
+	height:300px;
+	background:-moz-linear-gradient(#666362,#25383C);
+	width:1330px;
+	
+}
+
+#pad{
+	padding-left:100px;
+}
+
+#rotate{
+	transform:rotate(90deg);
+	padding-left:150px;
+	margin-top:-135px;
+}
+
+#back2{
+	background:#F0FFFF;
+}
+
+a:hover{
+	background-color: yellow;
+	box-shadow:3px 3px 3px 3px #657383;
+	background:-moz-linear-gradient(#4CC417,#89C35C);
+}
+
+#margin{
+	margin-left:60px;
+	margin-top:-105px;
+}
+
+#ml{
+	
+	margin-left:700px;
+	margin-top:-250px;
+}
+
+h5{
+	margin-top:-90px;
+	margin-left:170px;
+	font-family:Gabriola;
+	font-size:110%;
+	color:#C2DFFF;
+	width:490px;
+	
+}
+
+#l1{
+	padding-left:500px;
+	padding-right:100px;
+	margin-top:-30px;
+	margin-left:260px;
+}
+
+.profilephoto
+{
+	margin-bottom:30px;
+	border-radius:90%;
+	border:1px solid silver;
+	box-shadow:0px 0px 10px #0039e6;
+	height:70px;
+}
+
+#cole{
+	color:#fff;
+}

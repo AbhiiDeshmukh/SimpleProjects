@@ -1,0 +1,158 @@
+body{
+	font-family:Courier New;
+	text-align:center;
+	font-size:40px;
+	background-image:url("img.jpg");
+
+}
+h5{
+	font-size:30%;
+}
+h6{
+	font-size:30%;
+	margin-top:-20px;
+	
+}
+h1{
+	font-size:60%;
+	color:#000888;
+}
+
+#fixed{
+	width:400px;
+	padding:10px 60px 20px 60px;
+	margin:0px auto;
+	background:#eeefff;
+	border-radius:5px;
+}
+#head{
+	padding:20px;
+	
+}
+#inner{
+	background:#fff;
+	margin:10px;
+	padding:10px;
+	border-radius:10px;
+}
+.box{
+	background:#eeefff;
+	padding:15px;
+	width:80%;
+	height:6%;
+	border-style:none;
+	border-radius:5px;
+	margin:10px;
+}
+
+a{
+	text-decoration:none;
+}
+
+.boxbtn{
+	background:#d33723;
+	padding:15px;
+	width:80%;
+	height:6%;
+	color:#fff;
+	border-style:none;
+	border-radius:5px;
+	margin:10px 10px 0px 10px;
+	opacity:1;
+}
+.boxbtn:hover{
+	background:#d33723;
+	color:#fff;
+	opacity:0.9;
+	padding:10px;
+	width:80%;
+	height:6%;
+	border-style:none;
+	border-radius:5px;
+	margin:10px 10px 0px 10px;
+	margin-bottom:0px;
+}
+hr{
+	border-color:#fff;
+}
+
+/*.......................*/
+
+#heading{
+	margin:10px auto;
+	padding:20px;
+	background:#eeefff;
+	width:400px;
+	text-align:left;
+	border-bottom:solid 1px #000fff;
+}
+#form{
+	margin:-10px auto;
+	padding:20px;
+	background:#eeefff;
+	width:400px;
+	padding:20px;
+	border-bottom:solid 1px #000fff;
+}
+#text{
+	margin:30px;
+	background:#fff;
+	position:relative;
+	width:350px;
+	
+}
+#text input{
+	border:solid 1px #000ccc;
+	border-radius:5px;
+	padding:10px;
+	width:100%;
+}
+#text img{
+	top:4px;
+	float:right;
+	right:5px;
+	position:absolute;
+	border-left:solid 1px red;
+	
+}
+
+#form1{
+	margin:10px auto;
+	padding:20px;
+	background:#eeefff;
+	width:400px;
+	border-bottom:solid 1px #000fff;
+}
+.boxbtn2{
+	background:#d33723;
+	padding:15px;
+	width:30%;
+	height:6%;
+	color:#fff;
+	border-style:none;
+	border-radius:5px;
+	margin:10px 10px 0px 10px;
+	opacity:1;
+	float:right;
+}
+.boxbtn2:hover{
+	background:#d33723;
+	color:#fff;
+	opacity:0.9;
+	padding:10px;
+	width:30%;
+	height:6%;
+	border-style:none;
+	border-radius:5px;
+	margin:10px 10px 0px 10px;
+	margin-bottom:0px;
+	float:right;
+}
+#form2{
+	margin:10px auto;
+	padding:10px;
+	background:#eeefff;
+	width:400px;
+	padding:20px;
+	border-bottom:solid 1px #000fff;
+}
