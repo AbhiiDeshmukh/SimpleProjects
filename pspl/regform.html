@@ -1,0 +1,61 @@
+<html>
+<head>
+<link type="text/css" rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+<div id="heading">
+<h1>Registration Form</h1>
+</div>
+<form name=frm method=post action="reg.php">
+<div id="form">
+	
+	<div id="text">
+		<input type="text" size=40px name="usr" placeholder="Username" title="Username">
+		<img src="icon\u.png">
+	</div>
+	<div id="text">
+		<input type="text" size=40px name="email" placeholder="Email Address" title="Email Address">
+		<img src="icon\u1.png">
+	</div>
+	<div id="text">
+		<input type="password" size=40px name="pwd" placeholder="Password" title="Password">
+		<img src="icon\u1.png">
+	</div>
+	<div id="text">
+		<input type="password" size=40px name="conpwd" placeholder="Confirm Password" title="Confirm Password">
+		<img src="icon\u1.png">
+	</div>
+
+</div>
+
+<div id="form1">
+	
+	<div id="text">
+		<input type="text" size=40px name="nam" placeholder="First Name" title="First Name">
+		<img src="icon\u.png">
+	</div>
+	<div id="text">
+		<input type="text" size=40px name="lnam" placeholder="Last Name" title="Last Name">
+		<img src="icon\u.png">
+	</div>
+	<div id="text">
+		 <input list="browsers" name="gender" placeholder="Gender">
+			<datalist id="browsers">
+			<option name="gender" value="Male">
+			<option name="gender" value="Female">
+			</datalist>
+	</div>
+		<h5><input type="checkbox" name="agree"> I Agree All Terms and Conditions</h5>
+		<h5><input type="checkbox" name="agree"> I want to recieve all masseges and notifications </h5>
+		
+</div>
+
+<div id="form">
+	<input class="boxbtn" type="submit" value="Submit" onclick="valid()">
+</div>
+
+</form>
+</body>
+</html>
